@@ -1,9 +1,10 @@
 package sample;
 
 public class Sample{
+	int x = 5;
 	public static void main(String[] args) {
 
-		Test test = new TestA();
+		Object test = new TestA();
 		Factory.create(test);
 	}
 }
@@ -21,7 +22,7 @@ class TestB{
 }
 
 class Factory {
-	static void create(Test test) {
+	static void create(Object test) {
 		if (test instanceof TestA) {
 			TestA testa = (TestA) test;
 			testa.method();
