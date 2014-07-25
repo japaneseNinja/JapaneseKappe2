@@ -1,25 +1,34 @@
 package demo.exception.main;
+
 import demo.exception.exception.SuzumuraException;
+
+/**
+ * “Æ©ƒGƒ‰[‚ÌƒeƒXƒgƒR[ƒh‚Å‚·B —é‘º‚ªˆø”‚Æ‚µ‚Ächeckƒƒ\ƒbƒh‚É“n‚³‚ê‚é‚ÆException‚ª”­¶‚µ‚Ü‚·B
+ * 
+ * @author SuzumuraMan
+ * 
+ */
 public class HomeWork0724 {
-public static void main(String[] args) {
-	String name = "éˆ´æ‘";
-	KappeStopper stop = new KappeStopper();
-	stop.check(name);
+	public static void main(String[] args) {
+		String name = "—é‘º";
+		check(name);
+	}
 
-}
-}
-
-class KappeStopper{
-	void check(String name){
-		if("éˆ´æ‘".equals(name)){
+	/**
+	 * —é‘º‚©‚Ç‚¤‚©‚Ìƒ`ƒFƒbƒN‚ğs‚¢‚Ü‚·B
+	 * 
+	 * @param name
+	 *            –¼‘O
+	 */
+	static void check(String name) {
+		if ("—é‘º".equals(name)) {
 			try {
-				throw  new SuzumuraException("éˆ´æ‘ã¯é€šè¡ŒãŒç¦æ­¢ã•ã‚Œã¦ã„ã¾ã™");
+				throw new SuzumuraException("—é‘º‚Í’Ês‚ª‹Ö~‚³‚ê‚Ä‚¢‚Ü‚·");
 			} catch (SuzumuraException e) {
 				e.printStackTrace();
 			}
-				}
-		else{
-			System.out.println("é€šè¡Œè¨±å¯");
-			}
+		} else {
+			System.out.println("’Ês‹–‰Â");
+		}
 	}
 }

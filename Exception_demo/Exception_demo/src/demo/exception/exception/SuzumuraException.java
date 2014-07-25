@@ -1,11 +1,23 @@
 package demo.exception.exception;
 
-public class SuzumuraException extends Exception{
-		SuzumuraException() {
-			System.out.println("éˆ´æ‘ç¦æ­¢ï¼");
-		}
-		
-		public SuzumuraException(String message) {
-			super(message);
-		}
+/**
+ * —é‘º—áŠO‚ÌƒNƒ‰ƒX‚Å‚·B
+ * 
+ * @author pm14
+ * 
+ */
+public class SuzumuraException extends Exception {
+	SuzumuraException() {
+		System.out.println("—é‘º‹Ö~");
 	}
+
+	/**
+	 * ƒRƒ“ƒXƒgƒ‰ƒNƒ^[
+	 * 
+	 * @param message
+	 *            ƒƒbƒZ[ƒW
+	 */
+	public SuzumuraException(String message) {
+		super(message);
+	}
+}
