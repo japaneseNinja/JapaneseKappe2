@@ -9,6 +9,10 @@ import demo.exception.exception.SuzumuraException;
  * 
  */
 public class HomeWork0724 {
+	/**
+	 * 
+	 * @param args âΩÇ‡ìnÇµÇ‹ÇπÇÒÅB
+	 */
 	public static void main(String[] args) {
 		String name = "óÈë∫";
 		check(name);

@@ -3,7 +3,7 @@ package demo.exception.exception;
 /**
  * 鈴村例外のクラスです。
  * 
- * @author pm14
+ * @author SuzumuraMan
  * 
  */
 public class SuzumuraException extends Exception {
