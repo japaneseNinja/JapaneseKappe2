@@ -1,5 +1,8 @@
 package demo.exception.main;
 
+import java.util.Collection;
+import java.util.TreeMap;
+
 import demo.exception.exception.SuzumuraException;
 
 /**
@@ -16,6 +19,7 @@ public class HomeWork0724 {
 	public static void main(String[] args) {
 		String name = "—é‘º";
 		check(name);
+		Collection c4 = new TreeMap();
 	}
 
 	/**
