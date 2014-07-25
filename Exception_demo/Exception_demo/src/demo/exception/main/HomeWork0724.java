@@ -17,8 +17,7 @@ public class HomeWork0724 {
 	/**
 	 * 鈴村かどうかのチェックを行います。
 	 * 
-	 * @param name
-	 *            名前
+	 * @param name 名前
 	 */
 	static void check(String name) {
 		if ("鈴村".equals(name)) {

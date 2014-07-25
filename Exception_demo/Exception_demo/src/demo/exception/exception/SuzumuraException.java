@@ -14,8 +14,7 @@ public class SuzumuraException extends Exception {
 	/**
 	 * コンストラクター
 	 * 
-	 * @param message
-	 *            メッセージ
+	 * @param message メッセージ
 	 */
 	public SuzumuraException(String message) {
 		super(message);
